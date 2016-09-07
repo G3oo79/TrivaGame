@@ -1,0 +1,48 @@
+body{
+	background-image: url(../images/galaxy.jpg);
+	
+
+}
+
+#jumbo {
+	background-image: url(../images/stars.jpg); 
+	color: white;
+	text-align: center;
+	color: blue;
+	height: 100%;
+}
+
+button {
+ background: black;
+	
+}
+
+
+#world {
+	max-width: 50vw;
+}
+
+/*Second Screen*/
+
+.header {
+	color: white;
+
+}
+
+.timer {
+	color: white;
+}
+	
+ 
+ #question {
+ 	color: white;
+ 	
+ }
+
+ li {
+ 	color: white;
+ }
+
+ .trivia {
+ 	background-image: url(../images/worldmap.jpg);
+ }
