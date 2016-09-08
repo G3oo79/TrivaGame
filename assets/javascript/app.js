@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	//Global Variables.
-	//=======================================
+	//======================================= 
+
+	var quizArea = $('.quiz');
 
 	var trivia = 
 		[
@@ -29,30 +31,19 @@ $(document).ready(function() {
 		];
 
 	
-		$('.quiz').on('click', function(){
-		setInterval(function(){$('.quiz').append($(trivia).attr("value",key).text(value)); }, 3000);
-		console.log('.quiz');
-	});
-	
 
-		/*for (var j=0; j<trivia[i].options.length; j++){
-			quizArea.append("<button class='optionBtn' data-answer=" + trivia[i].answer + ">" + trivia[i].options[j] + '<button>')
-		};
-	*/
+	$('.optionBtn').on('click', function(){
+       alert('.quiz' "hello");
+    })
 
+		
+	/*q1 = {"What single city contains about 20% of the residents of its entire continent"
+
+	}*/
 	
-	var possibleAnswer = "";
-	var wrongAnswer = "";
-	var rightAnswer = "";
-	var timer = 0;
 
 
 	//Randomize question
-	
-
-	//
-	console.log(trivia);
-	
 	
 
 	//Get var questions and place it in html.
@@ -60,7 +51,7 @@ $(document).ready(function() {
 
 	//Functions
 	//=======================================
-	
+	/*function ()*/
 
 
 	//Reset Function
@@ -71,14 +62,7 @@ $(document).ready(function() {
 	//=======================================
 
 
-	/*$(document).on('click', '.optionBtn', function(){
-
-		alert($(this).text());
-		if($(this).text() == $(this).data("answer")){
-			alert("HELLO");
-		}
-	})*/
-
+	
 
 
 
