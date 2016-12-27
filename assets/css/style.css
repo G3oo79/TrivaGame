@@ -1,7 +1,6 @@
 body{
 	background-image: url(../images/galaxy.jpg);
-	
-
+	height: 100%
 }
 
 #jumbo {
@@ -17,7 +16,6 @@ button {
 	
 }
 
-
 #world {
 	max-width: 50vw;
 }
@@ -29,12 +27,13 @@ button {
 
 }
 
-.timer {
+#timer {
 	color: white;
 }
 
-.quiz {
+#quiz {
 	color: white;
+	 
 }
 	
  
@@ -43,10 +42,25 @@ button {
  	
  }
 
- li {
- 	color: white;
+ #answ {
+ 	width: 100%;
+ 	height: 100%;
+ 	
  }
 
- .trivia {
- 	background-image: url(../images/worldmap.jpg);
+ label {
+ 	color: white;
+ 	font-size: 25px;
+ 	margin: 10px;
+ 
  }
+
+ #trivia {
+ 	background-image: url(../images/worldmap.jpg);
+
+ }
+
+#optionsRadios2 {
+	margin: 15px;
+	
+}
