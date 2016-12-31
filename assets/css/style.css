@@ -13,6 +13,8 @@ body{
 
 button {
  background: black;
+ width: 100px;
+ height: 60px;
 	
 }
 
@@ -35,7 +37,13 @@ button {
 	color: white;
 	 
 }
-	
+h2 {
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
  
  #question {
  	color: white;
@@ -49,15 +57,29 @@ button {
  }
 
  label {
- 	color: white;
+  	color: white;
  	font-size: 25px;
  	margin: 10px;
+ 	margin-left: 500px;
  
  }
 
- #trivia {
- 	background-image: url(../images/worldmap.jpg);
+ #giph {
+ 	vertical-align: middle;
+ 	width: 250px;
+ 	height: 250px;
+ 	margin-left: 465px;
 
+ }
+
+ #newgame {
+ 	width: 100px;
+ 	height: 60px;
+ 	font-size: inherit;
+ }
+
+ #trivia {
+ 	background-image: url(../images/map.jpg);
  }
 
 #optionsRadios2 {
