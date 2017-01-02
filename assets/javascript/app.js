@@ -8,7 +8,6 @@ $('#end').hide();
 
 $(document).on('click', '#newGame', function(e) {
 	game.reset();
-	alert("tiworks");
 });
 
 $(document).on('click', '.start', function(e){
