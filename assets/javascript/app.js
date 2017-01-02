@@ -42,7 +42,7 @@ var questions =
 		},
 		{
 			question: "Madagascar is an island located of the southeast coast of what continent?",
-			answer: ["Africa", "Poland", "Barsil", "Uruguay"],
+			answer: ["Africa", "Poland", "Barzil", "Uruguay"],
 			correctAnswer: "Africa"
 		},
 		{
