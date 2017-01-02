@@ -47,7 +47,7 @@ var questions =
 		},
 		{
 			question: "Lake Tahoe straddles the border between which two U.S. states?",
-			answer: ["Mexico", "Paris", "California & Nevada"],
+			answer: ["Illinois & Indiana", "Alabama & Georgia", "California & Nevada"],
 			correctAnswer: "California & Nevada"
 		},
 		{
